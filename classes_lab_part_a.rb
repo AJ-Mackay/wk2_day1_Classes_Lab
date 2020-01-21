@@ -17,8 +17,8 @@ class Student
     @student_name = name
   end
 
-  def set_cohort(cohort)
-    @cohort = cohort
+  def set_cohort(new_cohort)
+    @cohort = new_cohort
   end
 
   def student_speech
